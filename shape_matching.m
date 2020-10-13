@@ -25,7 +25,7 @@ function shape_matching
     end
     
     % Load mesh
-    [V,F] = readOBJ([data_dir() '/meshes_obj/sphere.obj']);
+    [V,F] = readOBJ('sphere.obj');
     
     % Transform shape a little
     V = V / 4;
