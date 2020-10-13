@@ -43,10 +43,9 @@ function shape_matching
     lighting gouraud
     lightangle(gca,-130,90)
 
-    %TODO
     x = V';
     v = zeros(size(x));
-  
+    
     x0_com = mean(x,2); % assuming constant point masses
     q = x - x0_com;
     
